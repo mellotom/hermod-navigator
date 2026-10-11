@@ -4,4 +4,4 @@ a one-page reference for the squarp hermod+: every button combo by mode, plus wh
 
 live page: https://mellotom.github.io/hermod-navigator/
 
-compiled from the official hermod+ manual (squarp.net/hermodplus/manual). not affiliated with squarp.
+compiled from the official hermod+ manual for hermod+os 3.0 (squarp.net/hermodplus/manual, read october 2026). not affiliated with squarp.
