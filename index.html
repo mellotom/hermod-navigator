@@ -46,11 +46,6 @@ button:focus-visible{outline:2px solid var(--c0F71B7);outline-offset:2px}
 </style>
 <style>
 html,body{margin:0;background:var(--cFFFFFF)}
-.home{display:flex;align-items:center;min-height:34px;padding:6px max(16px,2.5vw) 0;box-sizing:border-box}
-.home a{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border:1px solid var(--cDEDCD6);color:var(--c6E6C66);text-decoration:none;font-family:'Roboto Mono',monospace;font-weight:500;font-size:12px;line-height:1.4}
-.home a:hover{color:var(--c0A0A0A);border-color:var(--c0A0A0A)}
-.home a:focus-visible{outline:2px solid var(--c0A0A0A);outline-offset:2px}
-@media print{.home{display:none!important}}
 #frame{position:relative;overflow:hidden;background:var(--cFFFFFF);width:100vw;height:56.25vw}
 @page{size:landscape;margin:0}
 @media print{html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
@@ -92,7 +87,6 @@ html,body{margin:0;background:var(--cFFFFFF)}
 <style>:root{--cFFFFFF:#FFFFFF;--c0A0A0A:#0A0A0A;--cF8F7F3:#F8F7F3;--cF1F0EC:#F1F0EC;--c4A4944:#4A4944;--c2A2A27:#2A2A27;--c1E1E1C:#1E1E1C;--c3A3935:#3A3935;--c5E5C57:#5E5C57;--c6E6C66:#6E6C66;--c8A8881:#8A8881;--c8F8D87:#8F8D87;--cA9A7A1:#A9A7A1;--cC9C7C1:#C9C7C1;--cCFCDC5:#CFCDC5;--cD6D4CE:#D6D4CE;--cDEDCD6:#DEDCD6;--cE4E2DD:#E4E2DD;--c9A9893:#9A9893;--cE30B18:#E30B18;--c0F71B7:#0F71B7;--c0A4E80:#0A4E80;}html[data-theme="alt"]{--cFFFFFF:#1D1E20;--c0A0A0A:#F1EFE9;--cF8F7F3:#26272A;--cF1F0EC:#2A2B2E;--c4A4944:#B3B0A8;--c2A2A27:#DAD8D2;--c1E1E1C:#E2E0DA;--c3A3935:#C2BFB8;--c5E5C57:#A39F97;--c6E6C66:#9C988F;--c8A8881:#8E8B84;--c8F8D87:#8A8780;--cA9A7A1:#6A6862;--cC9C7C1:#4A4B4F;--cCFCDC5:#45464A;--cD6D4CE:#3E3F43;--cDEDCD6:#3A3B3F;--cE4E2DD:#36373B;--c9A9893:#6A6B6F;--cE30B18:#F04A50;--c0F71B7:#5AA6E6;--c0A4E80:#8CC4F2;}.tm{font:inherit;color:inherit;background:none;border:0;padding:0 2px;margin:0;cursor:pointer;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}.tm[aria-pressed="true"]{font-weight:700;text-decoration:none;color:var(--cE30B18)}.tm:focus-visible{outline:2px solid currentColor;outline-offset:2px}@media print{.tm-line{display:none!important}}@media (max-width:899px){.tm-line{order:3;align-items:flex-start!important}}</style>
 </head>
 <body>
-<nav class="home noprint" aria-label="site"><a href="https://mellotom.github.io/travelers-guide/"><span aria-hidden="true">‹</span> return to welcome center</a></nav>
 <div id="frame">
 <div id="sheet" style="position: absolute; top: 0; left: 0; width: 2560px; height: 1440px; transform-origin: 0 0; box-sizing: border-box; background: var(--cFFFFFF); color: var(--c0A0A0A); display: flex; flex-direction: column; padding: 0 64px">
 
@@ -106,7 +100,7 @@ html,body{margin:0;background:var(--cFFFFFF)}
 <header style="padding-top: 30px; display: flex; flex-direction: column; gap: 14px">
 <div class="m-slugs" style="display: flex; justify-content: space-between; font-family: 'Roboto Mono', monospace; font-size: 10.5px; line-height: 1.45; color: var(--c0A0A0A)">
 <div style="display: flex; flex-direction: column"><span style="font-weight: 600">hermod-navigator ........ 00.10_01</span><span>hermod+os ............ <a href="https://squarp.net/hermodplus/manual/" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px">v3.0 manual</a></span></div>
-<div class="tm-line" style="display: flex; flex-direction: column; align-items: center"><span>mode .......................... <button type="button" class="tm" data-t="native" aria-pressed="false">light</button>/<button type="button" class="tm" data-t="alt" aria-pressed="false">dark</button></span></div>
+<div class="tm-line" style="display: flex; flex-direction: column; align-items: center"><span>return to ................. <a class="tm" href="https://mellotom.github.io/travelers-guide/">welcome center</a></span><span>mode .......................... <button type="button" class="tm" data-t="native" aria-pressed="false">light</button>/<button type="button" class="tm" data-t="alt" aria-pressed="false">dark</button></span></div>
 <div style="display: flex; flex-direction: column; text-align: right"><span>source ....... <a href="https://squarp.net/hermodplus/manual/" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px">squarp.net/hermodplus/manual</a></span><span>rev ............................... 2026.10</span></div>
 </div>
 <div class="m-hgrid" style="display: grid; grid-template-columns: minmax(0, 1fr) 720px; gap: 56px; align-items: end">
