@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hermod-navigator · hermod+ cheat sheet</title>
+<meta name="description" content="squarp hermod+ button combos and buried menus, on one page.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&amp;family=IBM+Plex+Mono:wght@400;500;600&amp;display=swap">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:#0F71B7}a:hover{color:#0A4E80}
+.b{font-family:'IBM Plex Mono',ui-monospace,monospace;font-weight:600;font-size:11.5px;white-space:nowrap;color:#0A0A0A}
+.b.h{color:#E30B18}
+.b.w{color:#FFFFFF}
+.b.r{color:#E30B18}
+.v{font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:11px;color:#5E5C57}
+.p{font-style:normal;font-family:'IBM Plex Mono',monospace;color:#8A8881;font-weight:500;margin:0 2px}
+.col{display:flex;flex-direction:column;gap:20px;min-width:0}
+.sec{display:flex;flex-direction:column;min-width:0}
+.sh{display:flex;align-items:stretch;border-top:4px solid #0A0A0A;margin:0 0 3px}
+.sn{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:12.5px;padding:6px 8px 5px;line-height:1.2;min-width:20px;text-align:center}
+.st{margin:0;font-family:'Archivo',sans-serif;font-weight:800;font-size:22px;line-height:1;letter-spacing:-.015em;padding:6px 10px 3px;flex:1;min-width:0}
+.sc{font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:500;color:#5E5C57;align-self:center;white-space:nowrap}
+.r{display:grid;grid-template-columns:184px minmax(0,1fr);column-gap:12px;padding:5px 0;border-top:1px solid #E4E2DD;align-items:baseline}
+.r:first-of-type{border-top:0}
+.kc{line-height:1.55;min-width:0}
+.a{font-family:'Archivo',sans-serif;font-size:13px;line-height:1.36;color:#1E1E1C;min-width:0}
+.a b{font-weight:700;color:#0A0A0A}
+.cap{font-family:'IBM Plex Mono',monospace;font-size:10.5px;line-height:1.5;color:#5E5C57}
+.note{font-family:'IBM Plex Mono',monospace;font-size:10.5px;line-height:1.5;color:#5E5C57;margin:6px 0 0}
+.tr{font-family:'Archivo',sans-serif;font-weight:800;font-size:18px;line-height:1.15;letter-spacing:-.01em;color:#FFFFFF;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap;padding:0 0 5px}
+.t{display:grid;grid-template-columns:24px minmax(0,1fr);font-family:'Archivo',sans-serif;font-size:12.5px;line-height:1.42;color:#E6E4DE}
+.g{font-family:'IBM Plex Mono',monospace;color:#6A6862}
+.t b{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:12px;color:#FBC678;margin-right:6px}
+.blk{display:flex;flex-direction:column;padding-bottom:12px;border-bottom:1px solid #34332F}
+.pad{display:flex;align-items:flex-end;justify-content:flex-start;padding:4px 5px;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;border:1.5px solid #0A0A0A;background:#FFFFFF;height:32px;box-sizing:border-box}
+.pad.on{background:#E30B18;border-color:#E30B18;color:#FFFFFF}
+.ts{display:flex;flex-direction:column;gap:4px;align-items:stretch;min-width:0}
+.ts span:first-child{font-family:'IBM Plex Mono',monospace;font-size:10.5px;font-weight:600;text-align:center;padding:5px 0;white-space:nowrap}
+.ts span:last-child{font-family:'Archivo',sans-serif;font-weight:700;font-size:12.5px;text-align:center}
+.crop{position:absolute;width:22px;height:22px}
+</style>
+<style>
+html,body{margin:0;background:#FFFFFF}
+#frame{position:relative;overflow:hidden;background:#FFFFFF;width:100vw;height:56.25vw}
+</style>
+</head>
+<body>
+<div id="frame">
+<div id="sheet" style="position: absolute; top: 0; left: 0; width: 2560px; height: 1440px; transform-origin: 0 0; box-sizing: border-box; background: #FFFFFF; color: #0A0A0A; display: flex; flex-direction: column; padding: 0 64px">
+
+<div class="crop" style="top: 24px; left: 24px; border-top: 2px solid #0A0A0A; border-left: 2px solid #0A0A0A" aria-hidden="true"></div>
+<div class="crop" style="top: 24px; right: 24px; border-top: 2px solid #0A0A0A; border-right: 2px solid #0A0A0A" aria-hidden="true"></div>
+<div class="crop" style="bottom: 24px; left: 24px; border-bottom: 2px solid #0A0A0A; border-left: 2px solid #0A0A0A" aria-hidden="true"></div>
+<div class="crop" style="bottom: 24px; right: 24px; border-bottom: 2px solid #0A0A0A; border-right: 2px solid #0A0A0A" aria-hidden="true"></div>
+<div style="position: absolute; left: 26px; top: 360px; bottom: 120px; width: 14px; background: repeating-linear-gradient(to bottom, #0A0A0A 0 2px, transparent 2px 28px)" aria-hidden="true"></div>
+<div style="position: absolute; right: 26px; top: 360px; bottom: 120px; width: 14px; background: repeating-linear-gradient(to bottom, #0A0A0A 0 2px, transparent 2px 28px)" aria-hidden="true"></div>
+
+<header style="padding-top: 30px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; line-height: 1.45; color: #0A0A0A">
+<div style="display: flex; flex-direction: column"><span style="font-weight: 600">hermod-navigator ..... 00.10_01</span><span>squarp_hermod+ ....... control data</span></div>
+<div style="display: flex; flex-direction: column; text-align: right"><span>source ....... squarp.net/hermodplus/manual</span><span>rev .......................... 2026.10</span></div>
+</div>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) 720px; gap: 56px; align-items: end">
+<div style="display: flex; flex-direction: column; gap: 12px; min-width: 0">
+<div style="display: flex; align-items: flex-end; gap: 28px">
+<h1 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 124px; line-height: .8; letter-spacing: -.035em">hermod+</h1>
+<div style="display: flex; flex-direction: column; gap: 3px; padding-bottom: 2px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 32px; line-height: .95; letter-spacing: -.02em">
+<span>_button combos</span>
+<span style="color: #E30B18">_buried menus</span>
+</div>
+</div>
+<div style="height: 14px; background: #0A0A0A"></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid #0A0A0A; border-left: 2px solid #0A0A0A">
+<div style="padding: 7px 10px; border-right: 2px solid #0A0A0A; border-bottom: 2px solid #0A0A0A; display: flex; align-items: baseline; gap: 10px"><span style="font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 30px; line-height: 1; letter-spacing: -.02em">16</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #5E5C57">tracks · 8 cv + 8 midi</span></div>
+<div style="padding: 7px 10px; border-right: 2px solid #0A0A0A; border-bottom: 2px solid #0A0A0A; display: flex; align-items: baseline; gap: 10px"><span style="font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 30px; line-height: 1; letter-spacing: -.02em">16</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #5E5C57">sequences / project</span></div>
+<div style="padding: 7px 10px; border-right: 2px solid #0A0A0A; border-bottom: 2px solid #0A0A0A; display: flex; align-items: baseline; gap: 10px"><span style="font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 30px; line-height: 1; letter-spacing: -.02em; color: #E30B18">8+4</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #5E5C57">fx · modmatrix lanes / track</span></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #2A2A27; align-items: baseline">
+<span><span class="b">[ step ]</span> press</span>
+<span><span class="b h">[ step ]</span> hold</span>
+<span>turn / push <span class="b">[ encoder ]</span></span>
+<span><span class="b">[ pad ]</span> 1 of 16</span>
+<span><span class="b">[ tr 1 ]</span>–<span class="b">[ tr 8 ]</span> track switches</span>
+<span>› then</span>
+</div>
+</div>
+</div>
+</header>
+
+<div style="display: flex; flex-direction: column; gap: 3px; margin: 18px -64px 0" aria-hidden="true">
+<div style="height: 4px; background: #FBC678"></div>
+<div style="height: 4px; background: #F3920A"></div>
+<div style="height: 4px; background: #E30B18"></div>
+<div style="height: 4px; background: #DA5B9C"></div>
+<div style="height: 4px; background: #BA2E82"></div>
+<div style="height: 4px; background: #1AA19A"></div>
+<div style="height: 4px; background: #14A7CA"></div>
+<div style="height: 4px; background: #0F71B7"></div>
+<div style="height: 4px; background: #0A0A0A"></div>
+</div>
+
+<div style="display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #0A0A0A; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; color: #3A3935">
+<span>modes: [ step ] · [ effects ] · [ track ] · [ seq ] · on air</span>
+<span>hold threshold: settings › misc › hold time</span>
+<span>tab colors: hermod+ manual event palette</span>
+<span style="color: #E30B18">red = hold · not to scale</span>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)) minmax(0, 1.55fr); gap: 28px; padding-top: 20px; align-items: start">
+
+<div class="col">
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #FBC678; color: #0A0A0A">01</span><h2 class="st">anywhere</h2><span class="sc">hrm_01</span></div>
+<div class="r"><div class="kc"><span class="b">[ tr 1–8 ]</span></div><div class="a">select track</div></div>
+<div class="r"><div class="kc"><span class="b">[ play ]</span></div><div class="a">start / stop (stop returns to top)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ seq ]</span><i class="p">+</i><span class="b">[ pad ]</span></div><div class="a">launch that sequence</div></div>
+<div class="r"><div class="kc"><span class="b h">[ seq ]</span><i class="p">+</i><span class="b">[ play ]</span></div><div class="a">restart every pattern player</div></div>
+<div class="r"><div class="kc"><span class="b h">[ step ]</span><i class="p">+</i><span class="b">[ rec ]</span></div><div class="a"><b>on air</b>: pads become a keyboard</div></div>
+<div class="r"><div class="kc"><span class="b h">[ play ]</span></div><div class="a"><b>bpm menu</b>: turn <span class="b">[ encoder ]</span> for tempo, tap <span class="b">[ rec ]</span> to tap tempo, sync input inside ‡</div></div>
+<div class="r"><div class="kc"><span class="b h">[ rec ]</span></div><div class="a"><b>record settings</b></div></div>
+<div class="r"><div class="kc"><span class="b h">[ step ]</span> <span class="b h">[ effects ]</span> …</div><div class="a">hold any mode button to peek, release to return</div></div>
+</section>
+
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #F3920A; color: #0A0A0A">02</span><h2 class="st">recording</h2><span class="sc">hrm_02</span></div>
+<div class="r"><div class="kc"><span class="b">[ rec ]</span></div><div class="a">arm overdub (default) on the selected track; starts with <span class="b">[ play ]</span> or live while playing</div></div>
+<div class="r"><div class="kc"><span class="b h">[ x ]</span><i class="p">+</i><span class="b">[ rec ]</span></div><div class="a">hard rec: overwrites old notes *</div></div>
+<div class="r"><div class="kc"><span class="b h">[ y ]</span><i class="p">+</i><span class="b">[ rec ]</span></div><div class="a">looper rec: length set when you stop *</div></div>
+<div class="r"><div class="kc"><span class="b h">[ x ]</span> <span class="b h">[ y ]</span><i class="p">+</i><span class="b">[ rec ]</span></div><div class="a">multitrack rec: all routed tracks *</div></div>
+<p class="note">* factory defaults. reassign: record settings › shortcut x / y / x+y — hard rec, multitrack, looper, punch-in or nothing.</p>
+</section>
+
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #E30B18; color: #FFFFFF">03</span><h2 class="st">power-on</h2><span class="sc">hrm_03</span></div>
+<div class="r"><div class="kc"><span class="b h">[ step ]</span> <span class="v">at boot</span></div><div class="a">skip autoload, start a fresh project</div></div>
+<div class="r"><div class="kc"><span class="b h">[ x ]</span> <span class="v">at boot</span></div><div class="a">calibrate <span class="b">[ cv 1–8 ]</span> outputs (voltmeter; <span class="b">[ tr ]</span> picks voice, <span class="b">[ x ]</span> saves)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ y ]</span> <span class="v">at boot</span></div><div class="a">auto-calibrate <span class="b">[ cv a–d ]</span> inputs from <span class="b">[ cv 1 ]</span> (do outputs first)</div></div>
+</section>
+</div>
+
+<div class="col">
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #DA5B9C; color: #0A0A0A">04</span><h2 class="st">step · length / view</h2><span class="sc">hrm_04</span></div>
+<div class="r"><div class="kc"><span class="b">[ y ]</span> / <span class="b">[ x ]</span></div><div class="a">page left / right (pauses follow-playhead until you leave step)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ y ]</span><i class="p">+</i><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">pattern length, 16–256 steps</div></div>
+<div class="r"><div class="kc"><span class="b h">[ y ]</span><i class="p">+</i><span class="v">push+turn</span> <span class="b">[ encoder ]</span></div><div class="a">length in single 1/16 steps (polymeter)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ x ]</span><i class="p">+</i><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">zoom: /4, /2, 2/3, ×1, 3/2, ×2, ×4, ×8</div></div>
+<div class="r"><div class="kc"><span class="b h">[ x ]</span> <span class="b h">[ y ]</span><i class="p">+</i><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">double / halve length</div></div>
+<div class="r"><div class="kc"><span class="v">hold + turn</span> <span class="b h">[ encoder ]</span></div><div class="a">rotate all events left / right</div></div>
+</section>
+
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #BA2E82; color: #FFFFFF">05</span><h2 class="st">step · notes</h2><span class="sc">hrm_05</span></div>
+<div class="r"><div class="kc"><span class="b">[ pad ]</span></div><div class="a">add / delete a note</div></div>
+<div class="r"><div class="kc"><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">set pitch for the next note</div></div>
+<div class="r"><div class="kc"><span class="b h">[ pad ]</span><i class="p">+</i><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">edit note; push <span class="b">[ encoder ]</span> cycles pitch › length › velocity</div></div>
+<div class="r"><div class="kc"><span class="b h">[ pad ]</span><i class="p">+</i><span class="v">push+turn</span> <span class="b">[ encoder ]</span></div><div class="a">fast scroll (pitch jumps octaves)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ pad ]</span> <span class="b h">[ pad ]</span></div><div class="a">hold several to edit a range together</div></div>
+<div class="r"><div class="kc"><span class="b h">[ pad ]</span><i class="p">+</i><span class="b">[ pad ]</span></div><div class="a">copy a step, paste onto another</div></div>
+<div class="r"><div class="kc"><span class="b h">[ pad ]</span><i class="p">+</i><span class="b">[ tr 1–8 ]</span></div><div class="a">quick note length †</div></div>
+<div class="r"><div class="kc"><span class="b h">[ step ]</span><i class="p">+</i><span class="v">turn →</span> <span class="b">[ encoder ]</span></div><div class="a"><b>row edit</b> on (one pitch per row); turn ← exits</div></div>
+<div class="r"><div class="kc"><span class="b">[ step ]</span> <span class="v">in row edit</span></div><div class="a">cycle through pitches used in the pattern</div></div>
+<div class="r"><div class="kc"><span class="b">[ midi ]</span> <span class="v">/ on air chord</span></div><div class="a">play it, then <span class="b">[ pad ]</span> drops the whole chord in (note learn)</div></div>
+</section>
+
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #1AA19A; color: #0A0A0A">06</span><h2 class="st">step · mod / gate</h2><span class="sc">hrm_06</span></div>
+<div class="r"><div class="kc"><span class="b">[ step ]</span></div><div class="a">toggle mod / gate tab</div></div>
+<div class="r"><div class="kc"><span class="b h">[ step ]</span><i class="p">+</i><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">switch mod value ←→ interpolation (off, lin, s, log, exp)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ pad ]</span><i class="p">+</i><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">offset that mod value / gate length</div></div>
+<div class="r"><div class="kc"><span class="b">[ tr ]</span> <span class="v">again</span></div><div class="a">multi-voice layout: opens that voice’s gate view</div></div>
+</section>
+</div>
+
+<div class="col">
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #14A7CA; color: #0A0A0A">07</span><h2 class="st">step · analyzer</h2><span class="sc">hrm_07</span></div>
+<div class="a" style="padding: 4px 0 8px">hold <span class="b h">[ step ]</span> and press a track switch to show and edit that event lane:</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px 4px; padding-bottom: 6px">
+<div class="ts"><span style="background: #F3920A; color: #0A0A0A">[ tr 1 ]</span><span>notes</span></div>
+<div class="ts"><span style="background: #E30B18; color: #FFFFFF">[ tr 2 ]</span><span>pitchbend</span></div>
+<div class="ts"><span style="background: #DA5B9C; color: #0A0A0A">[ tr 3 ]</span><span>aftertouch</span></div>
+<div class="ts"><span style="background: #1AA19A; color: #0A0A0A">[ tr 4 ]</span><span>sustain</span></div>
+<div class="ts"><span style="background: #0F71B7; color: #FFFFFF">[ tr 5 ]</span><span>mod</span></div>
+<div class="ts"><span style="background: #0F71B7; color: #FFFFFF">[ tr 6 ]</span><span>mod 2</span></div>
+<div class="ts"><span style="background: #0F71B7; color: #FFFFFF">[ tr 7 ]</span><span>mod 3</span></div>
+<div class="ts"><span style="background: #0F71B7; color: #FFFFFF">[ tr 8 ]</span><span>mod 4</span></div>
+</div>
+<div class="r"><div class="kc"><span class="b h">[ step ]</span><i class="p">+</i><span class="b">[ x ]</span></div><div class="a">erase the shown lane in this pattern (row only, in row edit)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ step ]</span><i class="p">+</i><span class="b">[ y ]</span></div><div class="a">randomize the shown lane</div></div>
+</section>
+
+<section class="sec" style="gap: 8px">
+<div style="display: flex; justify-content: space-between; align-items: baseline; border-top: 4px solid #0A0A0A; padding-top: 6px">
+<span style="font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 20px; letter-spacing: -.015em">_fig. 01 pad matrix</span>
+<span class="sc">indexed 01–16</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 4px">
+<div class="pad">01</div><div class="pad on">02</div><div class="pad">03</div><div class="pad">04</div>
+<div class="pad">05</div><div class="pad on">06</div><div class="pad">07</div><div class="pad">08</div>
+<div class="pad">09</div><div class="pad on">10</div><div class="pad">11</div><div class="pad">12</div>
+<div class="pad">13</div><div class="pad on">14</div><div class="pad">15</div><div class="pad">16</div>
+</div>
+<div class="cap">■ red = modmatrix attenuverter / polarity / offset pads ([ effects ] › [ y ], lane set). in seq mode [ pad ] n = sequence n. in step mode [ pad ] n = step n of the page.</div>
+</section>
+
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #0F71B7; color: #FFFFFF">08</span><h2 class="st">track</h2><span class="sc">hrm_08</span></div>
+<div class="r"><div class="kc"><span class="b">[ track ]</span> <span class="v">or turn</span> <span class="b">[ encoder ]</span></div><div class="a">flip cv tracks 1–8 ←→ midi tracks 1–8</div></div>
+<div class="r"><div class="kc"><span class="b">[ pad ]</span></div><div class="a">mute track in this pattern</div></div>
+<div class="r"><div class="kc"><span class="b h">[ track ]</span><i class="p">+</i><span class="b">[ pad ]</span></div><div class="a">mute track in all patterns</div></div>
+<div class="r"><div class="kc"><span class="b">[ x ]</span></div><div class="a">layout configurator (voices › layout)</div></div>
+<div class="r"><div class="kc"><span class="b">[ y ]</span></div><div class="a">global settings</div></div>
+<div class="r"><div class="kc"><span class="v">push</span> <span class="b">[ encoder ]</span></div><div class="a">copy, paste, clear, rename track</div></div>
+<div class="r"><div class="kc"><span class="b h">[ tr 1–8 ]</span></div><div class="a">per-track config (see hrm_12)</div></div>
+</section>
+</div>
+
+<div class="col">
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #0A0A0A; color: #FFFFFF">09</span><h2 class="st">effects</h2><span class="sc">hrm_09</span></div>
+<div class="r"><div class="kc"><span class="v">empty</span> <span class="b h">[ pad ]</span></div><div class="a">jump into “add effect”</div></div>
+<div class="r"><div class="kc"><span class="v">filled</span> <span class="b h">[ pad ]</span></div><div class="a">jump into “edit effect” (any pad exits)</div></div>
+<div class="r"><div class="kc"><span class="b">[ pad ]</span></div><div class="a">mute effect in this pattern</div></div>
+<div class="r"><div class="kc"><span class="b h">[ effects ]</span><i class="p">+</i><span class="b">[ pad ]</span></div><div class="a">mute effect in all patterns</div></div>
+<div class="r"><div class="kc"><span class="b">[ effects ]</span> <span class="v">again</span></div><div class="a">toggle parameter view ←→ fx rack</div></div>
+<div class="r"><div class="kc"><span class="b h">[ encoder ]</span> <span class="v">on slot</span></div><div class="a">context menu: edit, copy, paste, delete (paste works track to track)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ encoder ]</span> <span class="v">on param</span></div><div class="a">global value ←→ <b>pattern-only value</b></div></div>
+<div class="r"><div class="kc"><span class="b">[ y ]</span></div><div class="a"><b>modmatrix</b>, 4 lanes; <span class="b">[ pad ]</span> picks a lane</div></div>
+<div class="r"><div class="kc"><span class="b">[ pad 2 · 6 · 10 · 14 ]</span></div><div class="a">lane’s attenuverter / polarity / offset (fig. 01)</div></div>
+</section>
+
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #0A0A0A; color: #FFFFFF">10</span><h2 class="st">seq</h2><span class="sc">hrm_10</span></div>
+<div class="r"><div class="kc"><span class="b">[ pad ]</span></div><div class="a">launch sequence (waits for sync)</div></div>
+<div class="r"><div class="kc"><span class="b h">[ x ]</span><i class="p">+</i><span class="b">[ pad ]</span></div><div class="a">append to song chain</div></div>
+<div class="r"><div class="kc"><span class="b">[ x ]</span> <span class="v">tap</span></div><div class="a">clear the chain</div></div>
+<div class="r"><div class="kc"><span class="b h">[ x ]</span><i class="p">+</i><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">sync: modulo, bars, shortest / longest, same as tr; push+turn = step precise</div></div>
+<div class="r"><div class="kc"><span class="b h">[ y ]</span><i class="p">+</i><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">run: sync / instant, restart / free</div></div>
+<div class="r"><div class="kc"><span class="v">live</span> <span class="b h">[ pad ]</span><i class="p">+</i><span class="v">empty</span> <span class="b">[ pad ]</span></div><div class="a">duplicate the playing sequence</div></div>
+<div class="r"><div class="kc"><span class="v">turn › push</span> <span class="b">[ encoder ]</span></div><div class="a">chain stopped: jump to any chain step</div></div>
+<div class="r"><div class="kc"><span class="b">[ seq ]</span> <span class="b">[ seq ]</span></div><div class="a">straight to project save / load</div></div>
+</section>
+
+<section class="sec">
+<div class="sh"><span class="sn" style="background: #0A0A0A; color: #FFFFFF">11</span><h2 class="st">on air</h2><span class="sc">hrm_11</span></div>
+<div class="r"><div class="kc"><span class="v">turn</span> <span class="b">[ encoder ]</span></div><div class="a">lowest note on the pads</div></div>
+<div class="r"><div class="kc"><span class="b">[ x ]</span> / <span class="b">[ y ]</span></div><div class="a">octave shift</div></div>
+<div class="r"><div class="kc"><span class="b">[ rec ]</span></div><div class="a">record what you play</div></div>
+<div class="r"><div class="kc"><span class="v">mod track</span></div><div class="a">pads become 16 fixed mod values</div></div>
+<div class="r"><div class="kc"><span class="v">exit</span></div><div class="a"><span class="b">[ step ]</span> or any mode button</div></div>
+</section>
+</div>
+
+<div style="display: flex; flex-direction: column; background: #0A0A0A; color: #FFFFFF; padding: 0 22px 18px; min-width: 0">
+<div style="display: flex; flex-direction: column; gap: 2px; margin: 0 -22px 14px" aria-hidden="true">
+<div style="height: 4px; background: #FBC678"></div>
+<div style="height: 4px; background: #F3920A"></div>
+<div style="height: 4px; background: #E30B18"></div>
+<div style="height: 4px; background: #DA5B9C"></div>
+<div style="height: 4px; background: #BA2E82"></div>
+</div>
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding-bottom: 10px; border-bottom: 1px solid #3A3934; margin-bottom: 14px">
+<h2 style="margin: 0; font-family: 'Archivo', sans-serif; font-weight: 900; font-size: 27px; line-height: 1; letter-spacing: -.02em">_where things hide</h2>
+<span style="font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #F3920A">12 · hrm_12</span>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; align-items: start">
+
+<div style="display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<div class="blk">
+<div class="tr">global settings <span class="b w">[ track ]</span><span style="color: #8A8881">›</span><span class="b w">[ y ]</span></div>
+<div class="t"><span class="g">├─</span><div><b>sync in</b>clock source, <span class="b w">[ cv a–d ]</span> reset / play / rec enable, cv bpm, cv clock div</div></div>
+<div class="t"><span class="g">├─</span><div><b>sync out</b>clock + transport on <span class="b w">[ midi ]</span> <span class="b w">[ usb host ]</span> <span class="b w">[ usb device ]</span>, clock on stop, <span class="b w">[ reset ]</span> out mode, <span class="b w">[ clock ]</span> out rate</div></div>
+<div class="t"><span class="g">├─</span><div><b>midi in</b>active-track port + channel, event filters, program change › sequence</div></div>
+<div class="t"><span class="g">├─</span><div><b>midi thru</b>port-to-port copies</div></div>
+<div class="t"><span class="g">├─</span><div><b>cv/gate in</b>active track note / mod, <span class="b w">[ cv a–d ]</span> range, gate capture, pitch offset</div></div>
+<div class="t"><span class="g">├─</span><div><b>misc</b>autoload, led brightness, hold time, smart overdub, follow playhead, mute default, track popup</div></div>
+<div class="t"><span class="g">├─</span><div><b>rec</b>same as hold <span class="b r">[ rec ]</span></div></div>
+<div class="t"><span class="g">├─</span><div><b>tuner</b>turn <span class="b w">[ encoder ]</span> to pick <span class="b w">[ cv a–d ]</span></div></div>
+<div class="t"><span class="g">├─</span><div><b>monitor</b>cv in › turn right: midi in › jitter</div></div>
+<div class="t"><span class="g">├─</span><div><b>custom scales</b>16 user scales for the scale effect</div></div>
+<div class="t"><span class="g">├─</span><div><b>save</b>settings (rec shortcuts too) only persist after this</div></div>
+<div class="t"><span class="g">└─</span><div><b>info</b>os version, cpu / ram</div></div>
+</div>
+<div style="display: flex; flex-direction: column">
+<div class="tr">quick routes</div>
+<div class="t"><span class="g">├─</span><div><b>rec options</b>hold <span class="b r">[ rec ]</span></div></div>
+<div class="t"><span class="g">├─</span><div><b>tempo + sync</b>hold <span class="b r">[ play ]</span></div></div>
+<div class="t"><span class="g">├─</span><div><b>modmatrix</b><span class="b w">[ effects ]</span> › <span class="b w">[ y ]</span></div></div>
+<div class="t"><span class="g">├─</span><div><b>voice layouts</b><span class="b w">[ track ]</span> › <span class="b w">[ x ]</span></div></div>
+<div class="t"><span class="g">└─</span><div><b>seq copy</b><span class="b w">[ seq ]</span> › push <span class="b w">[ encoder ]</span>, works across projects</div></div>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 14px; min-width: 0">
+<div class="blk">
+<div class="tr">per-track config <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 500; color: #BDBAB2">hold</span><span class="b r">[ tr 1–8 ]</span></div>
+<div class="t"><span class="g">├─</span><div><b>player</b>quantize, apply sustain, transpose, mute affects input</div></div>
+<div class="t"><span class="g">├─</span><div><b>inputs</b>midi port + channel, mod cc, <span class="b w">[ cv a–d ]</span> note / mod in, generator trigs</div></div>
+<div class="t"><span class="g">├─</span><div><b>outputs</b>midi port + channel, mod 1–4 / pitchbend / aftertouch destinations</div></div>
+<div class="t"><span class="g">└─</span><div><b>cv</b><span class="b w">[ gate ]</span> retrig, poly allocator, v/oct · 1.2 v · hz/v, finetune, bend range, <span class="b w">[ cv ]</span> min / max</div></div>
+<div class="cap" style="color: #9C9A92; padding-top: 6px">transpose leader = tr8 midi, always. enable player › transpose on it, then on followers.</div>
+</div>
+<div class="blk">
+<div class="tr">pattern edit <span class="b w">[ step ]</span><span style="color: #8A8881">›</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 500; color: #BDBAB2">push</span><span class="b w">[ encoder ]</span></div>
+<div class="t"><span class="g">├─</span><div><b>copy / paste</b>whole track, or per lane (with page variants)</div></div>
+<div class="t"><span class="g">├─</span><div><b>delete</b>per event lane</div></div>
+<div class="t"><span class="g">├─</span><div><b>generator</b>randomize all, or just pitch / length / velocity</div></div>
+<div class="t"><span class="g">└─</span><div><b>gen settings</b>grid, density, pitch / length / velocity ranges</div></div>
+</div>
+<div style="display: flex; flex-direction: column">
+<div class="tr">projects <span class="b w">[ seq ]</span><span style="color: #8A8881">›</span><span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; font-weight: 500; color: #BDBAB2">push</span><span class="b w">[ encoder ]</span></div>
+<div class="t"><span class="g">├─</span><div><b>save load</b>save, save as, new</div></div>
+<div class="t"><span class="g">├─</span><div><b>load</b>delete lives in here. shortcut: <span class="b w">[ seq ]</span> <span class="b w">[ seq ]</span></div></div>
+<div class="t"><span class="g">└─</span><div><b>after load</b><span class="b w">[ y ]</span> take its bpm · <span class="b w">[ x ]</span> keep current. swaps in sync, no stop.</div></div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+<footer style="margin-top: auto; padding: 10px 0 34px; border-top: 4px solid #0A0A0A; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; gap: 32px; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; line-height: 1.5; color: #4A4944">
+<div>† manual conflict: the shortcuts page says [ tr 1 ]–[ tr 8 ] = ½ step to 7 steps; the step-mode page says 1 to 8 steps.</div>
+<div>‡ manual conflict: the shortcuts page lists bpm as hold [ rec ]; basics + settings say hold [ play ] = bpm, hold [ rec ] = record settings. verify on your firmware.</div>
+<div style="display: flex; flex-direction: column; text-align: right; color: #0A0A0A; white-space: nowrap"><span>hermod-navigator ... 00.10_12</span><span style="color: #E30B18; font-weight: 600">end_file</span></div>
+</footer>
+
+</div>
+</div>
+<script>
+(function(){
+  var f=document.getElementById('frame'), s=document.getElementById('sheet');
+  function fit(){
+    var w=document.documentElement.clientWidth;
+    var k=w/2560;
+    s.style.transform='scale('+k+')';
+    f.style.width=w+'px'; f.style.height=(1440*k)+'px';
+  }
+  window.addEventListener('resize',fit); fit();
+})();
+</script>
+</body>
+</html>
